@@ -1,0 +1,31 @@
+{
+  "name": "bower-file-generator",
+  "version": "1.0.0",
+  "description": "generate bower file according to the existing bower_components file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phoenixzsun/bower-file-generator.git"
+  },
+  "keywords": [
+    "bower",
+    "file",
+    "generator"
+  ],
+  "author": "springjphoenix@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/phoenixzsun/bower-file-generator/issues"
+  },
+  "homepage": "https://github.com/phoenixzsun/bower-file-generator#readme",
+  "bin": {
+    "bowerfg": "./index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0"
+  }
+}
